@@ -21,7 +21,6 @@ public class SecurityConfig {
                 "/api/boards/*",
                 "/api/tasks",
                 "/api/tasks/*",
-                // Protege todas las rutas bajo /api/columns/ incluyendo {columnId}/tasks
                 "/api/columns/*"
         );
 

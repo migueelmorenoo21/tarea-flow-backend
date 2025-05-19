@@ -6,7 +6,6 @@ import java.security.NoSuchAlgorithmException;
 
 public class PasswordHasher {
 
-    // 🔐 Salt fijo (puedes moverlo a application.properties si quieres configurarlo)
     private static final String SALT = "SaltFijoParaTareaFlowApp_2025";
 
     public static String hash(String rawPassword) {

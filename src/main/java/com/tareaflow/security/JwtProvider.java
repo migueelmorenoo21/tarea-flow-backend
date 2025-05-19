@@ -9,8 +9,7 @@ import java.util.Date;
 import java.util.UUID;
 
 public class JwtProvider {
-
-    // 🔐 Clave secreta fija para firmar y verificar tokens (cárgala de un archivo en producción)
+    // la clave deberia ser segura, en produccion logicamente se cambiara a un .env o algo parecido
     private static final String SECRET = "EstaClaveSuperSecretaParaTareaFlowDebeTenerAlMenos256Bits!!";
     private static final Key SECRET_KEY = Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));
     private static final long EXPIRATION_MS = 86400000; // 24 horas
