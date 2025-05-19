@@ -1,4 +1,6 @@
 # 🧠 Tarea Flow – Backend API
+[!TIP] Este proyecto es ideal para comprender en profundidad cómo funciona la autenticación y la estructura de un backend profesional **sin depender de configuraciones automáticas.**
+[!WARNING] No se utiliza Spring Security. Todo el sistema de autenticación y autorización está construido manualmente para tener control total y aprender desde la base.
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4-green.svg)
@@ -21,8 +23,6 @@
 - ✅ **Sistema de roles básico** (usuario individual / empresa)
 - ✅ **Sin Spring Security**: seguridad completamente implementada desde cero
 
-[!TIP] Este proyecto es ideal para comprender en profundidad cómo funciona la autenticación y la estructura de un backend profesional **sin depender de configuraciones automáticas.**
-
 ---
 
 ## 🔐 Autenticación personalizada
@@ -33,8 +33,6 @@ El backend implementa:
 - Verificación de tokens en cada petición protegida
 - Hashing de contraseñas manual
 - Protección de rutas a través de filtros propios
-
-[!WARNING] No se utiliza Spring Security. Todo el sistema de autenticación y autorización está construido manualmente para tener control total y aprender desde la base.
 
 ---
 
