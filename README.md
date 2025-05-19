@@ -1,6 +1,7 @@
 # 🧠 Tarea Flow – Backend API
 > [!TIP]
 > Este proyecto es ideal para comprender en profundidad cómo funciona la autenticación y la estructura de un backend profesional **sin depender de configuraciones automáticas.**
+
 > [!WARNING]
 > No se utiliza Spring Security. Todo el sistema de autenticación y autorización está construido manualmente para tener control total y aprender desde la base.
 
