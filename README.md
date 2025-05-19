@@ -1,15 +1,15 @@
 # 🧠 Tarea Flow – Backend API
-> [!TIP]
-> Este proyecto es ideal para comprender en profundidad cómo funciona la autenticación y la estructura de un backend profesional **sin depender de configuraciones automáticas.**
-
-> [!WARNING]
-> No se utiliza Spring Security. Todo el sistema de autenticación y autorización está construido manualmente para tener control total y aprender desde la base.
-
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4-green.svg)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)
 ![Arquitectura](https://img.shields.io/badge/Hexagonal-CleanArchitecture-critical)
 ![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
+
+> [!TIP]
+> Este proyecto es ideal para comprender en profundidad cómo funciona la autenticación y la estructura de un backend profesional **sin depender de configuraciones automáticas.**
+
+> [!WARNING]
+> No se utiliza Spring Security. Todo el sistema de autenticación y autorización está construido manualmente para tener control total y aprender desde la base.
 
 > 🔧 Backend para **Tarea Flow**, una app moderna de gestión de tareas estilo Trello. Diseñado desde cero para aprender buenas prácticas de arquitectura, autenticación manual con JWT y seguridad realista.
 
